@@ -1,0 +1,58 @@
+:root {
+  --color-1: #394867;
+  --color-2: #212a3e;
+  --placeholder-color: #b9b9b9;
+  --info-card-color: #95a0bf;
+  --movie-card-color-1: #e73a3a;
+  --movie-card-color-2: #000000b0;
+  --movie-card-width: 10rem;
+  --white-color: white;
+  --yellow-color: #f3f365;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins;
+}
+
+.material-icons-round {
+  display: flex !important;
+  user-select: none;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--color-2);
+  color: #fff;
+  font-family: Poppins;
+  letter-spacing: 1px;
+  scroll-behavior: smooth;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+.material-icons-round {
+  display: flex;
+}
